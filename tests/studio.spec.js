@@ -210,7 +210,7 @@ test("original PNG remains in reusable library after its scene copy is removed",
     mimeType: "image/png",
     buffer: Buffer.from(data, "base64"),
   });
-  expect((await state(page)).creations).toHaveLength(1);
+  await expect.poll(async () => (await state(page)).creations.length).toBe(1);
   await page.getByRole("button", { name: "删除", exact: true }).click();
   expect((await state(page)).creations).toHaveLength(1);
   await page.locator("[data-creation]").click();
