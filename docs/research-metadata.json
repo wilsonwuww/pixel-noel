@@ -1,0 +1,51 @@
+[
+  {
+    "repo": "sorawit-w/agent-skills",
+    "license": "MIT",
+    "updated": "2026-10-21T02:00:32Z",
+    "branch": "main",
+    "description": "Agent-agnostic skills for coding agents, verified on Claude Code, Codex, and Copilot. Includes screenwright, which builds a UI from a design spec, then renders it, audits accessibility, and fixes what does not match."
+  },
+  {
+    "repo": "alanfrigo/pixel-studio",
+    "license": "MIT",
+    "updated": "2026-11-23T12:33:39Z",
+    "branch": "main",
+    "description": "Open-source AI pixel art studio for game developers: generate, edit, animate and export sprites, icons, sprite sheets, seamless textures, autotile tilesets, tile maps and nine-slice UI with exact pixel-grid control. Works with OpenRouter, OpenAI and PixelLab."
+  },
+  {
+    "repo": "ervareza/agent-skill-pixel-art",
+    "license": "MIT",
+    "updated": "2026-11-21T13:10:51Z",
+    "branch": "v4.3.0",
+    "description": "Autonomous AI agent skill for generating, auditing, and exporting flawless 2D pixel art game assets. Powered by Google Antigravity IDE."
+  },
+  {
+    "repo": "0x0funky/agent-sprite-forge",
+    "license": "MIT",
+    "updated": "2026-11-24T14:36:03Z",
+    "branch": "main",
+    "description": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts."
+  },
+  {
+    "repo": "abagames/agentic-gamedev-skills",
+    "license": "MIT",
+    "updated": "2026-11-21T20:25:10Z",
+    "branch": "main",
+    "description": "Agent skills extracted from game-development work and related agentic-workflow research"
+  },
+  {
+    "repo": "anthropics/skills",
+    "license": null,
+    "updated": "2026-11-24T15:00:00Z",
+    "branch": "main",
+    "description": "Public repository for Agent Skills"
+  },
+  {
+    "repo": "piskelapp/piskel",
+    "license": "Apache-2.0",
+    "updated": "2026-11-24T14:08:04Z",
+    "branch": "master",
+    "description": "A simple web-based tool for Spriting and Pixel art."
+  }
+]
