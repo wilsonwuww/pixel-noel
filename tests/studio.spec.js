@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 const state = (page) => page.evaluate(() => window.pixelNoel.scene);
 test.beforeEach(async ({ page }) => {
-  await page.goto("/");
+  await page.goto("./");
   await page.waitForFunction(() => window.pixelNoel?.ready);
 });
 test("complete default scene, responsive layout, no page errors", async ({

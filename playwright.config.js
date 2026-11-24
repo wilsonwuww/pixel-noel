@@ -6,7 +6,7 @@ export default defineConfig({
   workers: 1,
   reporter: [["list"], ["json", { outputFile: "docs/test-results.json" }]],
   use: {
-    baseURL: "http://127.0.0.1:4173",
+    baseURL: process.env.DEMO_URL || "http://127.0.0.1:4173/",
     channel: process.env.CI ? undefined : "chrome",
   },
   projects: [
@@ -20,9 +20,11 @@ export default defineConfig({
       },
     },
   ],
-  webServer: {
-    command: "npm run preview -- --port 4173",
-    url: "http://127.0.0.1:4173",
-    reuseExistingServer: true,
-  },
+  webServer: process.env.DEMO_URL
+    ? undefined
+    : {
+        command: "npm run preview -- --port 4173",
+        url: "http://127.0.0.1:4173",
+        reuseExistingServer: true,
+      },
 });
