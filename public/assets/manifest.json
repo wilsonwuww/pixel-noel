@@ -1,0 +1,851 @@
+{
+  "version": 1,
+  "nativeScene": [
+    1200,
+    800
+  ],
+  "furniture": [
+    {
+      "id": "0",
+      "name": "红丝绒沙发",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        0,
+        130,
+        374,
+        287
+      ],
+      "size": [
+        310,
+        230
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "1",
+      "name": "可可茶几",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        374,
+        140,
+        293,
+        277
+      ],
+      "size": [
+        210,
+        150
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "2",
+      "name": "阅读扶手椅",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        675,
+        100,
+        270,
+        319
+      ],
+      "size": [
+        185,
+        240
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "3",
+      "name": "橡木书架",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        957,
+        37,
+        297,
+        382
+      ],
+      "size": [
+        175,
+        300
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "4",
+      "name": "圣诞地毯",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        0,
+        580,
+        377,
+        232
+      ],
+      "size": [
+        560,
+        110
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "5",
+      "name": "黄铜落地灯",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        380,
+        441,
+        230,
+        381
+      ],
+      "size": [
+        120,
+        290
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "6",
+      "name": "复古唱片机",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        659,
+        481,
+        271,
+        342
+      ],
+      "size": [
+        180,
+        210
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "7",
+      "name": "冬青盆栽",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        945,
+        470,
+        309,
+        352
+      ],
+      "size": [
+        160,
+        220
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "8",
+      "name": "红金礼物",
+      "category": "gift",
+      "image": "furniture",
+      "frame": [
+        59,
+        939,
+        236,
+        229
+      ],
+      "size": [
+        110,
+        110
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "9",
+      "name": "奶油礼物",
+      "category": "gift",
+      "image": "furniture",
+      "frame": [
+        369,
+        935,
+        224,
+        230
+      ],
+      "size": [
+        110,
+        110
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "10",
+      "name": "针织抱枕",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        666,
+        925,
+        256,
+        238
+      ],
+      "size": [
+        100,
+        90
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "11",
+      "name": "烛台",
+      "category": "furniture",
+      "image": "furniture",
+      "frame": [
+        1014,
+        886,
+        184,
+        279
+      ],
+      "size": [
+        90,
+        150
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "12",
+      "name": "橡木摇椅",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        40,
+        20,
+        285,
+        326
+      ],
+      "size": [
+        175,
+        235
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "13",
+      "name": "小边几",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        410,
+        70,
+        273,
+        276
+      ],
+      "size": [
+        135,
+        160
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "14",
+      "name": "黄铜提灯",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        804,
+        25,
+        198,
+        321
+      ],
+      "size": [
+        75,
+        120
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "table",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "15",
+      "name": "圣诞花环",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        1083,
+        19,
+        355,
+        336
+      ],
+      "size": [
+        130,
+        130
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "wall",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "16",
+      "name": "奶油针织毯",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        20,
+        412,
+        317,
+        270
+      ],
+      "size": [
+        140,
+        95
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "table",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "17",
+      "name": "北欧雪花抱枕",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        391,
+        401,
+        316,
+        293
+      ],
+      "size": [
+        100,
+        95
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "table",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "18",
+      "name": "复古书堆",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        732,
+        430,
+        341,
+        248
+      ],
+      "size": [
+        110,
+        80
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "table",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "19",
+      "name": "柴火藤篮",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        1110,
+        398,
+        329,
+        290
+      ],
+      "size": [
+        150,
+        130
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "20",
+      "name": "冬夜水晶球",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        24,
+        739,
+        320,
+        330
+      ],
+      "size": [
+        100,
+        110
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "table",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "21",
+      "name": "冬青花枝",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        360,
+        788,
+        367,
+        244
+      ],
+      "size": [
+        160,
+        80
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "table",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "22",
+      "name": "黄铜吊灯",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        772,
+        714,
+        282,
+        363
+      ],
+      "size": [
+        150,
+        160
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "ceiling",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    },
+    {
+      "id": "23",
+      "name": "针织脚凳",
+      "category": "furniture",
+      "image": "furniture2",
+      "frame": [
+        1098,
+        761,
+        344,
+        292
+      ],
+      "size": [
+        160,
+        120
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "surface": "floor",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0",
+      "recolor": "hue"
+    }
+  ],
+  "ornaments": [
+    {
+      "id": "0",
+      "name": "圣诞球",
+      "image": "ornaments",
+      "frame": [
+        0.0,
+        0,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "1",
+      "name": "蝴蝶结",
+      "image": "ornaments",
+      "frame": [
+        313.5,
+        0,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "2",
+      "name": "铃铛",
+      "image": "ornaments",
+      "frame": [
+        627.0,
+        0,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "3",
+      "name": "雪花",
+      "image": "ornaments",
+      "frame": [
+        940.5,
+        0,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "4",
+      "name": "姜饼人",
+      "image": "ornaments",
+      "frame": [
+        0.0,
+        418,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "5",
+      "name": "木马",
+      "image": "ornaments",
+      "frame": [
+        313.5,
+        418,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "6",
+      "name": "星星",
+      "image": "ornaments",
+      "frame": [
+        627.0,
+        418,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "7",
+      "name": "微缩木屋",
+      "image": "ornaments",
+      "frame": [
+        940.5,
+        418,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "8",
+      "name": "拐杖糖",
+      "image": "ornaments",
+      "frame": [
+        0.0,
+        836,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "9",
+      "name": "小灯笼",
+      "image": "ornaments",
+      "frame": [
+        313.5,
+        836,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "10",
+      "name": "松果",
+      "image": "ornaments",
+      "frame": [
+        627.0,
+        836,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "11",
+      "name": "爱心",
+      "image": "ornaments",
+      "frame": [
+        940.5,
+        836,
+        313.5,
+        418
+      ],
+      "size": [
+        24,
+        28
+      ],
+      "anchor": [
+        0.5,
+        0.08
+      ],
+      "surface": "tree",
+      "author": "Pixel Noël · AI-assisted original",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
