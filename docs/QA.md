@@ -59,4 +59,10 @@
 
 ## 发布记录
 
-GitHub 仓库已创建，Pages 使用 Actions 工作流。正式部署结果在发布成功后补记。代码 MIT，美术独立 CC BY 4.0；无用户照片、参考原图、密钥或模型权重。
+- [GitHub 仓库](https://github.com/wilsonwuww/pixel-noel) 已真实上传，保留源代码与美术规范的提交历史。
+- [在线体验](https://wilsonwuww.github.io/pixel-noel/) 使用 GitHub Pages，HTTPS 已启用。
+- [最终部署与线上完整复测](https://github.com/wilsonwuww/pixel-noel/actions/runs/45431177943)：build、deploy、smoke 均 success。构建前本地页面测试 31 通过 / 1 按设计跳过；部署后对公开网址再次执行完整 31 通过 / 1 跳过。
+- 开发电脑另行通过真实 Chrome 访问公网网址：HTTP 200，素材全部加载，新增挂饰后 44 对象，Cozy Mode 正常，页面异常与失败请求均为 0。原始记录见 [online-verification.json](online-verification.json)，[公开页面真实截图](screenshots/live-demo.png)。
+- 首次远端检查暴露 PNG 解码与测试断言之间的时序问题；测试改为等待解码完成后再读素材库。没有跳过失败用例或放宽验收目标。
+- 代码 MIT，美术独立 CC BY 4.0；无用户照片、参考原图、密钥或模型权重。
+- 开发电脑 Git HTTPS 证书链异常；通过已有授权的 GitHub 连接安全上传并保持本地与远端提交一致，没有关闭 TLS 校验。
